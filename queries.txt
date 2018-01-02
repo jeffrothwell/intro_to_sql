@@ -1,0 +1,14 @@
+The following queries were run successfully in psql:
+
+1. SELECT * FROM robots WHERE source = 'Star Wars';
+2. FROM robots WHERE source = 'Star Wars' AND personality = 'anxious';
+3. SELECT * FROM recipes WHERE nut_free;
+4. SELECT count(*) FROM recipes WHERE gluten_free AND vegetarian = false;
+5. SELECT * from animals ORDER BY number_of_legs DESC LIMIT 1;
+6. SELECT * from board_games ORDER BY mins_to_play ASC LIMIT 1;
+7. SELECT * from recipes ORDER BY minutes_required DESC LIMIT 1;
+8. SELECT * FROM robots WHERE name LIKE 'M%';
+9. SELECT count(*) FROM board_games WHERE max_players >= 8;
+10. SELECT * FROM animals WHERE swimming AND egg_laying;
+11. SELECT * FROM animals WHERE swimming AND egg_laying AND flying = false;
+12. SELECT * FROM board_games ORDER BY max_players DESC LIMIT 1;
